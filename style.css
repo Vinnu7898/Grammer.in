@@ -14,7 +14,7 @@
   background: linear-gradient(to right ,rgba(0,0,0,0.9),rgba(0,0,0,0) );
   background-size: cover;
   position: center;
-  background-image: url(/images.jpeg);
+  background-image: url(images.jpeg);
   background-position:-29px -4px ;
   
 }
@@ -37,7 +37,7 @@ box-shadow: 5px 5px 4px
 .main{
   width: 102%;
   height: 90vh;
-  background-image: url('/images (7).jpeg');
+  background-image: url('images (7).jpeg');
  
   background-position: 0px 0px;
   background-size: cover;
