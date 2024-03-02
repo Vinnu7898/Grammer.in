@@ -1,0 +1,149 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.head{
+  
+  overflow: auto;
+  width: 100%;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  background: linear-gradient(to right ,rgba(0,0,0,0.9),rgba(0,0,0,0) );
+  background-size: cover;
+  position: center;
+  background-image: url(/images.jpeg);
+  background-position:-29px -4px ;
+  
+}
+.logo{
+width: 200px;
+border-radius: 50%;
+box-shadow: 5px 5px 4px 
+}
+.title{
+  color: transparent;
+  
+  font-size: 5rem;
+  padding-right: 150px;
+  background: linear-gradient(to right,skyblue, white);
+  -webkit-background-clip: text;
+  text-shadow: 4px 4px 3px
+  
+  
+}
+.main{
+  width: 102%;
+  height: 90vh;
+  background-image: url('/images (7).jpeg');
+ 
+  background-position: 0px 0px;
+  background-size: cover;
+  position: absolute;
+  display: flex;
+                
+}     
+.box1{
+  overflow: auto;
+  width: 30%;
+  text-align: center;
+  color: white;
+  border: 2px solid navajowhite;
+  padding: 20px;
+  border-radius: 30px;
+  box-shadow: 3px 3px 3px;
+}
+li{
+  color: white;
+  text-decoration: none;
+  padding: 20px;
+  background-color: darkgreen;
+  border-radius: 20px;
+  
+  margin: 30px
+}
+li:hover{
+  background-color: transparent;
+  border: 2px solid white;
+}
+a{
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: lightcyan;
+  font-weight: bolder
+  
+}
+.box2{
+  overflow: auto;
+  width: 70%;
+  text-align: center;
+  color: white;
+  border: 2px solid navajowhite;
+  padding: 20px;
+  border-radius: 30px;
+  box-shadow: 3px 3px 3px;
+  
+  
+}
+h2{
+  color: lightpink;
+  font-size: 3rem;
+  font-weight: bolder;
+  margin: 30px;
+  background-color: darkcyan;
+  padding: 20px;
+  border-radius: 20px
+}
+h3{
+  padding: 10px;
+}
+.intro{
+  text-align: left;
+  padding-left: 80px
+}
+p{
+  color: yellow;
+  font-size: 3rem;
+  margin: 30px
+}
+
+@media (max-width: 500px) {
+
+.logo{
+  width: 50px;
+}
+.title{
+  font-size: 2rem;
+  padding-left: 30px;
+}
+.box1{
+  padding: 0px;
+}
+li{
+  padding: 10px;
+  margin: 10px
+}
+  a{
+    font-size: 0.8rem;
+    border-radius: 0px
+  }
+  
+  .box2{
+    padding: 5px;
+  }
+  
+  h2{
+    font-size: 1rem;
+    margin: 20px;
+    padding: 10px;
+    
+  }
+  p{
+    font-size: 1rem
+  }
+  iframe{
+    width: 200px;
+  }
+}
