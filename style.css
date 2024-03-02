@@ -14,7 +14,7 @@
   background: linear-gradient(to right ,rgba(0,0,0,0.9),rgba(0,0,0,0) );
   background-size: cover;
   position: center;
-  background-image: url(images.jpeg);
+  background-image: url("images.jpeg");
   background-position:-29px -4px ;
   
 }
